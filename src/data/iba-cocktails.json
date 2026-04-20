@@ -1,0 +1,2322 @@
+[
+  {
+    "id": "bellini",
+    "name": "Bellini",
+    "ingredients": [
+      {
+        "name": "Prosecco",
+        "amount": 100.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Purée de pêche",
+        "amount": 50.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "black-russian",
+    "name": "Black Russian",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": 50.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Coffee Liqueur",
+        "amount": 20.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "bloody-mary",
+    "name": "Bloody Mary",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de tomate",
+        "amount": 90.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sauce Worcestershire",
+        "amount": 2.0,
+        "unit": "traits"
+      },
+      {
+        "name": "Tabasco",
+        "amount": 1.0,
+        "unit": "traits"
+      },
+      {
+        "name": "Celery Salt",
+        "amount": 1.0,
+        "unit": "traits"
+      },
+      {
+        "name": "Poivre",
+        "amount": 1.0,
+        "unit": "traits"
+      }
+    ]
+  },
+  {
+    "id": "caipirinha",
+    "name": "Caipirinha",
+    "ingredients": [
+      {
+        "name": "Cachaça",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Citron vert",
+        "amount": 1.0,
+        "unit": "pièce"
+      },
+      {
+        "name": "White Cane Sugar",
+        "amount": 4.0,
+        "unit": "c.c."
+      }
+    ]
+  },
+  {
+    "id": "champagne-cocktail",
+    "name": "Champagne Cocktail",
+    "ingredients": [
+      {
+        "name": "Chilled Champagne",
+        "amount": 90.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Cognac",
+        "amount": 10.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Angostura",
+        "amount": 2.0,
+        "unit": "traits"
+      },
+      {
+        "name": "Grand Marnier",
+        "amount": 1.0,
+        "unit": "gouttes"
+      },
+      {
+        "name": "Sugar Cube",
+        "amount": 1.0,
+        "unit": "pièce"
+      }
+    ]
+  },
+  {
+    "id": "corpse-reviver-2",
+    "name": "Corpse Reviver #2",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Cointreau",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Lillet blanc",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Absinthe",
+        "amount": 1.0,
+        "unit": "traits"
+      }
+    ]
+  },
+  {
+    "id": "cosmopolitan",
+    "name": "Cosmopolitan",
+    "ingredients": [
+      {
+        "name": "Vodka Citron",
+        "amount": 40.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Cointreau",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron vert",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de canneberge",
+        "amount": 30.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "cuba-libre",
+    "name": "Cuba Libre",
+    "ingredients": [
+      {
+        "name": "Rhum blanc",
+        "amount": 50.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Coca Cola",
+        "amount": 120.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron vert",
+        "amount": 10.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "french-75",
+    "name": "French 75",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sirop de sucre",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Champagne",
+        "amount": 60.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "french-connection",
+    "name": "French Connection",
+    "ingredients": [
+      {
+        "name": "Cognac",
+        "amount": 35.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Amaretto",
+        "amount": 35.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "golden-dream",
+    "name": "Golden Dream",
+    "ingredients": [
+      {
+        "name": "Galliano",
+        "amount": 20.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Triple sec",
+        "amount": 20.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus d'orange",
+        "amount": 20.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Fresh Cream",
+        "amount": 10.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "grasshopper",
+    "name": "Grasshopper",
+    "ingredients": [
+      {
+        "name": "Crème de Cacao",
+        "amount": 20.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Crème de Menthe",
+        "amount": 20.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Fresh Cream",
+        "amount": 20.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "hemingway-special",
+    "name": "Hemingway Special",
+    "ingredients": [
+      {
+        "name": "Rum",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de pamplemousse",
+        "amount": 40.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Marasquin",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Citron vert",
+        "amount": 15.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "horse-s-neck",
+    "name": "Horse's Neck",
+    "ingredients": [
+      {
+        "name": "Cognac",
+        "amount": 40.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Ginger ale",
+        "amount": 120.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Angostura",
+        "amount": 1.0,
+        "unit": "traits"
+      }
+    ]
+  },
+  {
+    "id": "irish-coffee",
+    "name": "Irish Coffee",
+    "ingredients": [
+      {
+        "name": "Irish Whiskey",
+        "amount": 50.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Café",
+        "amount": 120.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Fresh cream",
+        "amount": 50.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sucre",
+        "amount": 1.0,
+        "unit": "c.c."
+      }
+    ]
+  },
+  {
+    "id": "kir",
+    "name": "KIR",
+    "ingredients": [
+      {
+        "name": "Vin blanc sec",
+        "amount": 90.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Crème de Cassis",
+        "amount": 10.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "long-island-ice-tea",
+    "name": "Long Island Ice Tea",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Tequila",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Rhum blanc",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Gin",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Cointreau",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sirop de sucre",
+        "amount": 20.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Cola",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "mai-tai",
+    "name": "Mai-Tai",
+    "ingredients": [
+      {
+        "name": "Amber Jamaican Rum",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Martinique Molasses Rhum",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Orange Curacao",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Orgeat",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron vert",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sirop de sucre",
+        "amount": 7.5,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "margarita",
+    "name": "Margarita",
+    "ingredients": [
+      {
+        "name": "Tequila 100% Agave",
+        "amount": 50.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Triple sec",
+        "amount": 20.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Freshly Squeezed Lime Juice",
+        "amount": 15.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "mimosa",
+    "name": "Mimosa",
+    "ingredients": [
+      {
+        "name": "Jus d'orange",
+        "amount": 75.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Prosecco",
+        "amount": 75.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "mint-julep",
+    "name": "Mint Julep",
+    "ingredients": [
+      {
+        "name": "Bourbon",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "fresh Mint sprigs",
+        "amount": 4.0,
+        "unit": "pièce"
+      },
+      {
+        "name": "Powdered Sugar",
+        "amount": 1.0,
+        "unit": "c.c."
+      },
+      {
+        "name": "Eau",
+        "amount": 2.0,
+        "unit": "c.c."
+      }
+    ]
+  },
+  {
+    "id": "mojito",
+    "name": "Mojito",
+    "ingredients": [
+      {
+        "name": "Rhum blanc",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron vert",
+        "amount": 20.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Mint Sprigs",
+        "amount": 6.0,
+        "unit": "pièce"
+      },
+      {
+        "name": "White Cane Sugar",
+        "amount": 2.0,
+        "unit": "c.c."
+      },
+      {
+        "name": "Eau gazeuse",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "moscow-mule",
+    "name": "Moscow Mule",
+    "ingredients": [
+      {
+        "name": "Smirnoff Vodka",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Ginger beer",
+        "amount": 120.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron vert",
+        "amount": 10.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "pina-colada",
+    "name": "Pina Colada",
+    "ingredients": [
+      {
+        "name": "Rhum blanc",
+        "amount": 50.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Crème de coco",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus d'ananas",
+        "amount": 50.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "pisco-sour",
+    "name": "Pisco Sour",
+    "ingredients": [
+      {
+        "name": "Pisco",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sirop de sucre",
+        "amount": 20.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Raw Egg White",
+        "amount": 1.0,
+        "unit": "pièce"
+      }
+    ]
+  },
+  {
+    "id": "sea-breeze",
+    "name": "Sea Breeze",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": 40.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de canneberge",
+        "amount": 120.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de pamplemousse",
+        "amount": 30.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "sex-on-the-beach",
+    "name": "Sex on the Beach",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": 40.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Peach Schnapps",
+        "amount": 20.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus d'orange",
+        "amount": 40.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de canneberge",
+        "amount": 40.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "singapore-sling",
+    "name": "Singapore Sling",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Cherry liqueur",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Cointreau",
+        "amount": 7.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Bénédictine",
+        "amount": 7.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus d'ananas",
+        "amount": 120.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron vert",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Grenadine Syrup",
+        "amount": 10.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Angostura",
+        "amount": 1.0,
+        "unit": "traits"
+      }
+    ]
+  },
+  {
+    "id": "tequila-sunrise",
+    "name": "Tequila Sunrise",
+    "ingredients": [
+      {
+        "name": "Tequila",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus d'orange",
+        "amount": 90.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Grenadine Syrup",
+        "amount": 15.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "vesper",
+    "name": "Vesper",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Vodka",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Lillet blanc",
+        "amount": 7.5,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "zombie",
+    "name": "Zombie",
+    "ingredients": [
+      {
+        "name": "Jamaican dark rum",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Gold Puerto Rican rum",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Demerara Rum",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron vert",
+        "amount": 20.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Falernum",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Donn's Mix",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Grenadine syrup",
+        "amount": 1.0,
+        "unit": "c.c."
+      },
+      {
+        "name": "Angostura",
+        "amount": 1.0,
+        "unit": "traits"
+      },
+      {
+        "name": "Pernod",
+        "amount": 6.0,
+        "unit": "gouttes"
+      }
+    ]
+  },
+  {
+    "id": "barracuda",
+    "name": "Barracuda",
+    "ingredients": [
+      {
+        "name": "Rhum ambré",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Galliano",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus d'ananas",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron vert",
+        "amount": 1.0,
+        "unit": "traits"
+      },
+      {
+        "name": "Prosecco",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "bee-s-knees",
+    "name": "Bee's Knees",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": 52.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Sirop de miel",
+        "amount": 2.0,
+        "unit": "c.c."
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus d'orange",
+        "amount": 22.5,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "bramble",
+    "name": "Bramble",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": 50.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 25.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sirop de sucre",
+        "amount": 12.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Crème de Mûre",
+        "amount": 15.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "canchanchara",
+    "name": "Canchanchara",
+    "ingredients": [
+      {
+        "name": "Cuban Aguardiente",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron vert",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Miel",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Eau",
+        "amount": 50.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "dark-n-stormy",
+    "name": "Dark ‘n' stormy",
+    "ingredients": [
+      {
+        "name": "Goslings Rum",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Ginger beer",
+        "amount": 100.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "espresso-martini",
+    "name": "Espresso Martini",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": 50.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Kahlúa",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sirop de sucre",
+        "amount": 10.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Espresso",
+        "amount": 30.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "fernandito",
+    "name": "Fernandito",
+    "ingredients": [
+      {
+        "name": "Fernet Branca",
+        "amount": 50.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Cola",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "french-martini",
+    "name": "French Martini",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Raspberry Liqueur",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus d'ananas",
+        "amount": 15.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "illegal",
+    "name": "Illegal",
+    "ingredients": [
+      {
+        "name": "Espadin Mezcal",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jamaica Overproof White Rum",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Falernum",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Marasquin",
+        "amount": 1.0,
+        "unit": "c.c."
+      },
+      {
+        "name": "Jus de citron vert",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Sirop de sucre",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Blanc d'œuf",
+        "amount": 1.0,
+        "unit": "gouttes"
+      }
+    ]
+  },
+  {
+    "id": "lemon-drop-martini",
+    "name": "Lemon drop Martini",
+    "ingredients": [
+      {
+        "name": "Vodka Citron",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Triple sec",
+        "amount": 20.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 15.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "naked-and-famous",
+    "name": "Naked and Famous",
+    "ingredients": [
+      {
+        "name": "Mezcal",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Chartreuse jaune",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Aperol",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron vert",
+        "amount": 22.5,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "new-york-sour",
+    "name": "New York Sour",
+    "ingredients": [
+      {
+        "name": "Rye Whiskey or Bourbon",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sirop de sucre",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Blanc d'œuf",
+        "amount": 1.0,
+        "unit": "gouttes"
+      },
+      {
+        "name": "Red wine",
+        "amount": 15.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "old-cuban",
+    "name": "Old Cuban",
+    "ingredients": [
+      {
+        "name": "Menthe",
+        "amount": 8.0,
+        "unit": "pièce"
+      },
+      {
+        "name": "Rhum ambré",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron vert",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Sirop de sucre",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Angostura",
+        "amount": 2.0,
+        "unit": "traits"
+      },
+      {
+        "name": "Brut Champagne or Prosecco",
+        "amount": 60.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "paloma",
+    "name": "Paloma",
+    "ingredients": [
+      {
+        "name": "100% Agave Tequila",
+        "amount": 50.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Citron vert",
+        "amount": 5.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sel",
+        "amount": 1.0,
+        "unit": "pincée"
+      },
+      {
+        "name": "Pink Grapefruit Soda",
+        "amount": 100.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "paper-plane",
+    "name": "Paper Plane",
+    "ingredients": [
+      {
+        "name": "Bourbon",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Amaro Nonino",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Aperol",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 30.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "penicillin",
+    "name": "Penicillin",
+    "ingredients": [
+      {
+        "name": "Blended Scotch Whisky",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Lagavulin 16 y Whisky",
+        "amount": 7.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Sirop de miel",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Gingembre",
+        "amount": 3.0,
+        "unit": "pièce"
+      }
+    ]
+  },
+  {
+    "id": "russian-spring-punch",
+    "name": "Russian Spring Punch",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": 25.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 25.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Crème de cassis",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sirop de sucre",
+        "amount": 10.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Vin mousseux",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "southside",
+    "name": "Southside",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sirop de sucre",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Menthe",
+        "amount": 6.0,
+        "unit": "pièce"
+      },
+      {
+        "name": "Blanc d'œuf",
+        "amount": 1.0,
+        "unit": "gouttes"
+      }
+    ]
+  },
+  {
+    "id": "spicy-fifty",
+    "name": "Spicy Fifty",
+    "ingredients": [
+      {
+        "name": "Vodka Vanilla",
+        "amount": 50.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Elderflower Cordial",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron vert",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Monin Honey Syrup",
+        "amount": 10.0,
+        "unit": "ml"
+      },
+      {
+        "name": "thin Slices Red Chili Pepper",
+        "amount": 2.0,
+        "unit": "pièce"
+      }
+    ]
+  },
+  {
+    "id": "spritz",
+    "name": "Spritz",
+    "ingredients": [
+      {
+        "name": "Prosecco",
+        "amount": 90.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Aperol",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Eau gazeuse",
+        "amount": 1.0,
+        "unit": "splash"
+      }
+    ]
+  },
+  {
+    "id": "suffering-bastard",
+    "name": "Suffering Bastard",
+    "ingredients": [
+      {
+        "name": "Cognac or Brandy",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Gin",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron vert",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Angostura",
+        "amount": 2.0,
+        "unit": "traits"
+      },
+      {
+        "name": "Ginger beer",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "tipperary",
+    "name": "Tipperary",
+    "ingredients": [
+      {
+        "name": "Irish Whiskey",
+        "amount": 50.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sweet Red Vermouth",
+        "amount": 25.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Chartreuse verte",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Angostura",
+        "amount": 2.0,
+        "unit": "traits"
+      }
+    ]
+  },
+  {
+    "id": "tommy-s-margarita",
+    "name": "Tommy's Margarita",
+    "ingredients": [
+      {
+        "name": "Tequila Agave 100% Reposado",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron vert",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Agave Syrup",
+        "amount": 30.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "trinidad-sour",
+    "name": "Trinidad Sour",
+    "ingredients": [
+      {
+        "name": "Angostura",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Orgeat",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Rye Whisky",
+        "amount": 15.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "ve-n-to",
+    "name": "VE.N.TO",
+    "ingredients": [
+      {
+        "name": "Grappa",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Honey mix",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Chamomile cordial",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Blanc d'œuf",
+        "amount": 10.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "yellow-bird",
+    "name": "Yellow Bird",
+    "ingredients": [
+      {
+        "name": "Rhum blanc",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Galliano",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Triple sec",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron vert",
+        "amount": 15.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "alexander",
+    "name": "Alexander",
+    "ingredients": [
+      {
+        "name": "Cognac",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Crème de Cacao",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Fresh Cream",
+        "amount": 30.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "americano",
+    "name": "Americano",
+    "ingredients": [
+      {
+        "name": "Campari",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sweet Red Vermouth",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Eau gazeuse",
+        "amount": 1.0,
+        "unit": "splash"
+      }
+    ]
+  },
+  {
+    "id": "angel-face",
+    "name": "Angel Face",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Apricot Brandy",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Calvados",
+        "amount": 30.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "aviation",
+    "name": "Aviation",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Marasquin",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Crème de Violette",
+        "amount": 1.0,
+        "unit": "c.c."
+      }
+    ]
+  },
+  {
+    "id": "between-the-sheets",
+    "name": "Between the Sheets",
+    "ingredients": [
+      {
+        "name": "Rhum blanc",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Cognac",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Triple sec",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 20.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "boulevardier",
+    "name": "Boulevardier",
+    "ingredients": [
+      {
+        "name": "Bourbon or Rye Whiskey",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Campari",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sweet Red Vermouth",
+        "amount": 30.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "brandy-crusta",
+    "name": "Brandy Crusta",
+    "ingredients": [
+      {
+        "name": "Brandy",
+        "amount": 52.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Marasquin",
+        "amount": 7.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Curacao",
+        "amount": 1.0,
+        "unit": "c.c."
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sirop de sucre",
+        "amount": 1.0,
+        "unit": "c.c."
+      },
+      {
+        "name": "Aromatic Bitters",
+        "amount": 2.0,
+        "unit": "traits"
+      }
+    ]
+  },
+  {
+    "id": "casino",
+    "name": "Casino",
+    "ingredients": [
+      {
+        "name": "Old Tom Gin",
+        "amount": 40.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Marasquin",
+        "amount": 10.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 10.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Bitter orange",
+        "amount": 2.0,
+        "unit": "traits"
+      }
+    ]
+  },
+  {
+    "id": "clover-club",
+    "name": "Clover Club",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sirop de framboise",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Blanc d'œuf",
+        "amount": 1.0,
+        "unit": "gouttes"
+      }
+    ]
+  },
+  {
+    "id": "daiquiri",
+    "name": "Daiquiri",
+    "ingredients": [
+      {
+        "name": "Rhum blanc",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron vert",
+        "amount": 20.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Superfine Sugar",
+        "amount": 2.0,
+        "unit": "c.c."
+      }
+    ]
+  },
+  {
+    "id": "dry-martini",
+    "name": "Dry Martini",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Vermouth sec",
+        "amount": 10.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "gin-fizz",
+    "name": "Gin Fizz",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sirop de sucre",
+        "amount": 10.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Eau gazeuse",
+        "amount": 1.0,
+        "unit": "splash"
+      }
+    ]
+  },
+  {
+    "id": "hanky-panky",
+    "name": "Hanky Panky",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sweet Red Vermouth",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Fernet Branca",
+        "amount": 7.5,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "john-collins",
+    "name": "John Collins",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sirop de sucre",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Eau gazeuse",
+        "amount": 60.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "last-word",
+    "name": "Last word",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Chartreuse verte",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Marasquin",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron vert",
+        "amount": 22.5,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "manhattan",
+    "name": "Manhattan",
+    "ingredients": [
+      {
+        "name": "Rye",
+        "amount": 50.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sweet Red Vermouth",
+        "amount": 20.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Angostura",
+        "amount": 1.0,
+        "unit": "traits"
+      }
+    ]
+  },
+  {
+    "id": "martinez",
+    "name": "Martinez",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sweet Red Vermouth",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Marasquin",
+        "amount": 1.0,
+        "unit": "c.c."
+      },
+      {
+        "name": "Bitter orange",
+        "amount": 2.0,
+        "unit": "traits"
+      }
+    ]
+  },
+  {
+    "id": "mary-pickford",
+    "name": "Mary Pickford",
+    "ingredients": [
+      {
+        "name": "Rhum blanc",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus d'ananas",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Marasquin",
+        "amount": 7.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Grenadine Syrup",
+        "amount": 5.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "monkey-gland",
+    "name": "Monkey Gland",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus d'orange",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Absinthe",
+        "amount": 1.0,
+        "unit": "c.s."
+      },
+      {
+        "name": "Grenadine Syrup",
+        "amount": 1.0,
+        "unit": "c.s."
+      }
+    ]
+  },
+  {
+    "id": "negroni",
+    "name": "Negroni",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Campari",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sweet Red Vermouth",
+        "amount": 30.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "old-fashioned",
+    "name": "Old Fashioned",
+    "ingredients": [
+      {
+        "name": "Bourbon or Rye Whiskey",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sugar Cube",
+        "amount": 1.0,
+        "unit": "pièce"
+      },
+      {
+        "name": "Angostura",
+        "amount": 1.0,
+        "unit": "traits"
+      },
+      {
+        "name": "Eau",
+        "amount": 1.0,
+        "unit": "traits"
+      }
+    ]
+  },
+  {
+    "id": "paradise",
+    "name": "Paradise",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Apricot Brandy",
+        "amount": 20.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus d'orange",
+        "amount": 15.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "planter-s-punch",
+    "name": "Planter's Punch",
+    "ingredients": [
+      {
+        "name": "Rhum ambré",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron vert",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sugar Cane Juice",
+        "amount": 30.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "porto-flip",
+    "name": "Porto Flip",
+    "ingredients": [
+      {
+        "name": "Brandy",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Porto",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jaune d'œuf",
+        "amount": 10.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "ramos-fizz",
+    "name": "Ramos Fizz",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron vert",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sirop de sucre",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Crème",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Blanc d'œuf",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Orange Flower Water",
+        "amount": 3.0,
+        "unit": "traits"
+      },
+      {
+        "name": "Vanilla Extract",
+        "amount": 2.0,
+        "unit": "gouttes"
+      },
+      {
+        "name": "Eau gazeuse",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "rusty-nail",
+    "name": "Rusty Nail",
+    "ingredients": [
+      {
+        "name": "Scotch",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Drambuie",
+        "amount": 25.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "sazerac",
+    "name": "Sazerac",
+    "ingredients": [
+      {
+        "name": "Cognac",
+        "amount": 50.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Absinthe",
+        "amount": 10.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sugar Cube",
+        "amount": 1.0,
+        "unit": "pièce"
+      },
+      {
+        "name": "Peychaud's",
+        "amount": 2.0,
+        "unit": "traits"
+      }
+    ]
+  },
+  {
+    "id": "sidecar",
+    "name": "Sidecar",
+    "ingredients": [
+      {
+        "name": "Cognac",
+        "amount": 50.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Triple sec",
+        "amount": 20.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 20.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "stinger",
+    "name": "Stinger",
+    "ingredients": [
+      {
+        "name": "Cognac",
+        "amount": 50.0,
+        "unit": "ml"
+      },
+      {
+        "name": "White Crème de Menthe",
+        "amount": 20.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "tuxedo",
+    "name": "Tuxedo",
+    "ingredients": [
+      {
+        "name": "Old Tom Gin",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Vermouth sec",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Marasquin",
+        "amount": 0.5,
+        "unit": "c.c."
+      },
+      {
+        "name": "Absinthe",
+        "amount": 0.25,
+        "unit": "c.c."
+      },
+      {
+        "name": "Bitter orange",
+        "amount": 3.0,
+        "unit": "traits"
+      }
+    ]
+  },
+  {
+    "id": "vieux-carr",
+    "name": "Vieux Carrè",
+    "ingredients": [
+      {
+        "name": "Rye",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Cognac",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Vermouth rouge",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Bénédictine",
+        "amount": 1.0,
+        "unit": "c.c."
+      },
+      {
+        "name": "Peychaud's",
+        "amount": 2.0,
+        "unit": "traits"
+      }
+    ]
+  },
+  {
+    "id": "whiskey-sour",
+    "name": "Whiskey Sour",
+    "ingredients": [
+      {
+        "name": "Bourbon",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 25.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Sirop de sucre",
+        "amount": 20.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Blanc d'œuf",
+        "amount": 20.0,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "white-lady",
+    "name": "White Lady",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": 40.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Triple sec",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 20.0,
+        "unit": "ml"
+      }
+    ]
+  }
+]

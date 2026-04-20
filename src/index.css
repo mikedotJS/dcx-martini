@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+.font-display {
+  font-family: "Fraunces", Georgia, serif;
+  font-optical-sizing: auto;
+  letter-spacing: -0.01em;
+}
