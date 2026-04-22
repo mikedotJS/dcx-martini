@@ -151,6 +151,7 @@ const fmt = (n) => {
 
 function formatMl(ml, displayUnit = "ml") {
   if (displayUnit === "shot") return `${fmt(ml / 30)} shot`;
+  if (displayUnit === "oz") return `${fmt(ml / 29.5735)} oz`;
   if (ml >= 1000) return `${fmt(ml / 1000)} L`;
   if (ml >= 10 && ml % 10 === 0) return `${fmt(ml / 10)} cl`;
   return `${fmt(ml)} ml`;
@@ -158,6 +159,7 @@ function formatMl(ml, displayUnit = "ml") {
 
 function formatAmount(amount, unit, displayUnit = "ml") {
   if (unit === "ml" && displayUnit === "shot") return `${fmt(amount / 30)} shot`;
+  if (unit === "ml" && displayUnit === "oz") return `${fmt(amount / 29.5735)} oz`;
   if (unit === "ml" && amount >= 1000) return `${fmt(amount / 1000)} L`;
   return `${fmt(amount)} ${unit}`;
 }
@@ -463,7 +465,8 @@ export default function App() {
 
   const [displayUnit, setDisplayUnit] = useState(() => {
     try {
-      return localStorage.getItem("display-unit") === "shot" ? "shot" : "ml";
+      const v = localStorage.getItem("display-unit");
+      return v === "shot" || v === "oz" ? v : "ml";
     } catch {
       return "ml";
     }
@@ -567,6 +570,16 @@ export default function App() {
                 }`}
               >
                 ml
+              </button>
+              <button
+                onClick={() => setDisplayUnit("oz")}
+                className={`px-3 py-1 rounded-full text-xs font-medium transition ${
+                  displayUnit === "oz"
+                    ? "bg-amber-500 text-stone-950"
+                    : "text-stone-400 hover:text-stone-100"
+                }`}
+              >
+                oz
               </button>
               <button
                 onClick={() => setDisplayUnit("shot")}
