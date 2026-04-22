@@ -138,11 +138,15 @@ function toMl(amount, unit) {
   if (u === "cl") return amount * 10;
   if (u === "l")  return amount * 1000;
   if (u === "oz") return amount * 29.5735;
+  if (u === "shot") return amount * 30;
   if (u === "dash" || u === "dashes" || u === "trait" || u === "traits") return amount * 0.8;
   if (u === "tsp" || u === "c.c." || u === "c. à café" || u === "cuillère à café") return amount * 5;
   if (u === "tbsp" || u === "c.s." || u === "c. à soupe" || u === "cuillère à soupe") return amount * 15;
   return null;
 }
+
+const VOLUME_UNITS = new Set(["ml", "cl", "l", "oz", "shot"]);
+const FORM_UNITS = ["ml", "oz", "shot"];
 
 const fmt = (n) => {
   if (Number.isInteger(n)) return String(n);
@@ -158,10 +162,39 @@ function formatMl(ml, displayUnit = "ml") {
 }
 
 function formatAmount(amount, unit, displayUnit = "ml") {
-  if (unit === "ml" && displayUnit === "shot") return `${fmt(amount / 30)} shot`;
-  if (unit === "ml" && displayUnit === "oz") return `${fmt(amount / 29.5735)} oz`;
-  if (unit === "ml" && amount >= 1000) return `${fmt(amount / 1000)} L`;
+  const u = (unit || "").toLowerCase().trim();
+  if (VOLUME_UNITS.has(u)) {
+    const ml = toMl(amount, u);
+    if (ml !== null) return formatMl(ml, displayUnit);
+  }
   return `${fmt(amount)} ${unit}`;
+}
+
+// Rewrite an ingredient's unit to one of the form-supported units (ml/oz/shot).
+// Liquid synonyms (cl, l) collapse to canonical ml. Non-liquid units (traits,
+// feuilles, c.c., zeste, etc.) pass through untouched so imports keep their
+// recipe fidelity.
+function normalizeIngredient(ing) {
+  if (!ing || typeof ing !== "object") return ing;
+  const raw = (ing.unit || "").trim();
+  const u = raw.toLowerCase();
+  if (u === "cl") return { ...ing, amount: ing.amount * 10, unit: "ml" };
+  if (u === "l")  return { ...ing, amount: ing.amount * 1000, unit: "ml" };
+  if (u === "part") return { ...ing, amount: ing.amount * 30, unit: "ml" };
+  if (u === "ml" || u === "oz" || u === "shot") {
+    return raw === u ? ing : { ...ing, unit: u };
+  }
+  return ing;
+}
+
+function normalizeIngredients(list) {
+  let changed = false;
+  const next = (list || []).map((ing) => {
+    const normalized = normalizeIngredient(ing);
+    if (normalized !== ing) changed = true;
+    return normalized;
+  });
+  return { ingredients: next, changed };
 }
 
 // Parse TheCocktailDB's free-form measure strings.
@@ -405,9 +438,34 @@ export default function App() {
     return rows.map((r) => ({
       id: r.id,
       name: r.name,
-      ingredients: safeParseIngredients(r.ingredients),
+      ingredients: normalizeIngredients(safeParseIngredients(r.ingredients)).ingredients,
     }));
   }, [rows]);
+
+  // One-shot migration: rewrite stored cocktails whose ingredients used legacy
+  // liquid units (cl, l, part, casing variants) so the repertoire lines up
+  // with the ml/oz/shot picker. Converges because the next read is already
+  // clean and produces no diff.
+  useEffect(() => {
+    if (!rows || rows.length === 0) return;
+    const updates = [];
+    for (const r of rows) {
+      const parsed = safeParseIngredients(r.ingredients);
+      const { ingredients, changed } = normalizeIngredients(parsed);
+      if (changed) {
+        updates.push({ id: r.id, name: r.name, ingredients: JSON.stringify(ingredients) });
+      }
+    }
+    if (updates.length === 0) return;
+    let cancelled = false;
+    (async () => {
+      await Promise.all(updates.map((u) => updateRow(u).catch(() => {})));
+      if (!cancelled) refetch();
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [rows, updateRow, refetch]);
 
   const SELECTION_ID = "current";
   const { mutate: upsertState } = useMutation("app_state", "upsert");
@@ -1005,8 +1063,7 @@ function EditModal({ editing, setEditing, onSave, onClose }) {
                       className="w-20 bg-stone-950 border border-stone-800 rounded-lg px-3 py-2 text-sm text-stone-100 focus:border-amber-500 focus:outline-none"
                       placeholder="Qté"
                     />
-                    <input
-                      type="text"
+                    <select
                       value={ing.unit}
                       onChange={(e) => {
                         const next = [...editing.ingredients];
@@ -1014,8 +1071,16 @@ function EditModal({ editing, setEditing, onSave, onClose }) {
                         setEditing({ ...editing, ingredients: next });
                       }}
                       className="w-20 bg-stone-950 border border-stone-800 rounded-lg px-3 py-2 text-sm text-stone-100 focus:border-amber-500 focus:outline-none"
-                      placeholder="ml"
-                    />
+                    >
+                      {FORM_UNITS.map((u) => (
+                        <option key={u} value={u}>
+                          {u}
+                        </option>
+                      ))}
+                      {!FORM_UNITS.includes(ing.unit) && ing.unit ? (
+                        <option value={ing.unit}>{ing.unit}</option>
+                      ) : null}
+                    </select>
                     <button
                       onClick={() => {
                         const next = editing.ingredients.filter((_, j) => j !== i);
